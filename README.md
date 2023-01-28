@@ -1,6 +1,6 @@
 # orenda-website
 
-- Website and survey for the orenga start-up
+- Website and survey for the orenda start-up
 - Inlcudes survey, main description, and some other details that will allow our start-up to do customer evaluation
 
 ## Technologies
