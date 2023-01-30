@@ -1,5 +1,4 @@
-import * as React from "react";
-import { Routes, Route } from "react-router-dom";
+import "./Home.css";
 
 function App() {
   return (
@@ -22,4 +21,4 @@ function App() {
   );
 }
 
-export default App;
+export default Home;
