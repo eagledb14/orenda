@@ -39,7 +39,11 @@ const Home = () => {
       <br></br>
       <div class="color"></div>
       <br></br>
-      <Link to="/contact">Contact Us</Link>
+      <div class="buttons">
+        <Link class="button-text" to="/contact">
+          Contact Us
+        </Link>
+      </div>
     </div>
   );
 };

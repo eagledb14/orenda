@@ -9,6 +9,7 @@ const Contact = () => {
     from_name: "",
     to_name: "Orenda-box Team",
     message: "",
+    phone: "",
     reply_to: "",
   });
 
@@ -44,40 +45,56 @@ const Contact = () => {
       <div class="intro">Contact us</div>
       <br></br>
       <form onSubmit={onSubmit}>
+        <label for="name">Name</label>
         <input
           type="text"
+          id="name"
           name="from_name"
-          placeholder="from name"
+          placeholder="John Doe"
           value={toSend.from_name}
           onChange={handleChange}
         />
-        <input
+        <label for="message">Message</label>
+        <textarea
           type="text"
-          name="to_name"
-          placeholder="to name"
-          value={toSend.to_name}
-          onChange={handleChange}
-        />
-        <input
-          type="text"
+          id="message"
           name="message"
-          placeholder="Your message"
+          placeholder="..."
           value={toSend.message}
           onChange={handleChange}
         />
+        <label for="phone">Phone</label>
         <input
           type="text"
+          id="phone"
+          name="phone"
+          placeholder="(123)456-7890"
+          value={toSend.phone}
+          onChange={handleChange}
+        />
+        <label for="email">Email</label>
+        <input
+          type="text"
+          id="email"
           name="reply_to"
-          placeholder="Your email"
+          placeholder="user@email.com"
           value={toSend.reply_to}
           onChange={handleChange}
         />
-        <button type="submit">Submit</button>
+        <div class="buttons">
+          <button class="button-text" type="submit">
+            Submit
+          </button>
+        </div>
       </form>
       <br></br>
       <div class="color"></div>
       <br></br>
-      <Link to="/home">Home</Link>
+      <div class="buttons">
+        <Link class="button-text" to="/home">
+          Home
+        </Link>
+      </div>
     </div>
   );
 };
