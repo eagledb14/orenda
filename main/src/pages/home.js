@@ -5,7 +5,10 @@ import "./home.css";
 const Home = () => {
   return (
     <div class="content">
-      <img src="../images/drawing-transparent.png" alt="Orenda-box icon" />
+      <img
+        src={require("../images/drawing-transparent.png")}
+        alt="Orenda-box icon"
+      />
       <div id="item">
         <div id="highlight"></div>
         <span>Orenda-box</span>
