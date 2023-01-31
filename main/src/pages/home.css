@@ -23,7 +23,7 @@ body {
 }
 
 img {
-  height: 100px;
+  height: 160px;
 }
 
 #item {
@@ -59,8 +59,15 @@ img {
   background-color: var(--orange);
 }
 
-.info {
+.intro {
+  font-size: 24px;
 }
 
-.contact {
+.box-image {
+  display: flex;
+  justify-content: center;
+}
+
+.box-image > img {
+  height: 240px;
 }

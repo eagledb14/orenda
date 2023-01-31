@@ -17,7 +17,7 @@ const Contact = () => {
       <br></br>
       <div class="color"></div>
       <br></br>
-      <div class="info">Contact us</div>
+      <div class="intro">Contact us</div>
       <br></br>
       <div class="color"></div>
       <br></br>
