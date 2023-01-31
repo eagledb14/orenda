@@ -44,6 +44,18 @@ const Contact = () => {
       <br></br>
       <div class="intro">Contact us</div>
       <br></br>
+      <div class="text-info">
+        <p>
+          Fill out the form below or click on the link to access our Google
+          Form!
+        </p>
+        <div class="buttons">
+          <a class="button-text" href="google.com">
+            Google Form
+          </a>
+        </div>
+      </div>
+      <br></br>
       <form onSubmit={onSubmit}>
         <label for="name">Name</label>
         <input

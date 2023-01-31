@@ -20,7 +20,7 @@ const Home = () => {
       <div class="intro">
         Bringing cloud computing to your workspace. Get all the positives of
         having cheap computers without sacrificing the key programs that make
-        your offic run.
+        your office run.
       </div>
       <br></br>
       <div class="box-image">
@@ -28,12 +28,12 @@ const Home = () => {
       </div>
       <br></br>
       <div>
-        <p>more information</p>
+        <p class="text-info">The Orenda-box:</p>
         <ul>
-          <li>one time purchase</li>
-          <li>monthly subscription</li>
-          <li>free updates</li>
-          <li>free repairs</li>
+          <li>make a one time purchase for the Orenda-box</li>
+          <li>monthly subscription following one time purchase</li>
+          <li>free updates covered by monthly subscription</li>
+          <li>free repairs covered by monthly subscription</li>
         </ul>
       </div>
       <br></br>
