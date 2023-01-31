@@ -44,15 +44,19 @@ const Contact = () => {
       <br></br>
       <div class="intro">Contact us</div>
       <br></br>
-      <div class="text-info">
+      <div>
         <p>
           Fill out the form below or click on the link to access our Google
           Form!
         </p>
         <div class="buttons">
-          <a class="button-text" href="google.com">
+          <Link
+            class="button-text"
+            to={{ pathname: "https://forms.gle/9o1cZcgNaucVycgK7" }}
+            target="_blank"
+          >
             Google Form
-          </a>
+          </Link>
         </div>
       </div>
       <br></br>

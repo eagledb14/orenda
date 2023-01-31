@@ -28,7 +28,7 @@ const Home = () => {
       </div>
       <br></br>
       <div>
-        <p class="text-info">The Orenda-box:</p>
+        <p>The Orenda-box:</p>
         <ul>
           <li>make a one time purchase for the Orenda-box</li>
           <li>monthly subscription following one time purchase</li>
